@@ -15,9 +15,15 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
-    "prettier",
-    "aribnb-base"
+    "prettier"
   ],
   "plugins": ["import", "react-hooks"],
-  "rules": {}
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
 }
