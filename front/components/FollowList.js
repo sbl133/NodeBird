@@ -11,7 +11,7 @@ const FollowList = ({ header, data }) => {
       size="small"
       header={<div>{header}</div>}
       loadMore={
-        <div style={{ textAlign: 'center', margin: '10px' }}>
+        <div style={{ textAlign: 'center', margin: '10px 0' }}>
           <Button>더 보기</Button>
         </div>
       }
