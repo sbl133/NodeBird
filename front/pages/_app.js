@@ -21,4 +21,4 @@ NodeBird.propTypes = {
   Component: PropTypes.elementType.isRequired,
 };
 
-export default wrapper.withReudex(NodeBird);
+export default wrapper.withRedux(NodeBird);
