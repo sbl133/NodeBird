@@ -23,8 +23,9 @@ const Global = createGlobalStyle`
   }
 `;
 const SearchInput = styled(Input.Search)`
-  vertical-margin: middle;
+  vertical-align: middle;
 `;
+
 const AppLayout = ({ children }) => {
   const { me } = useSelector((state) => state.user);
   const [searchInput, onChangeSearchInput] = useInput('');
